@@ -76,9 +76,48 @@ Domain 3 - Deployment ML models
 
 ```rb
     * 3.1 Select Deployment Infrastructure
+            
             Understand deployment services
             Single deployment or batch deployment 
             Select resources - CPU,GPU,RAM,network
-            Different types of giving model endpoints
+            Different types of giving model endpoints - Serverless, real-time, async, batch inference
+            Versioning of deployment and rollback 
+            Model Optimization on edge devices and deployment options
+            Performance, Cost and Latency tradeoffs
+            Airflow and Sagemaker Pipelines
+
+     * 3.2 Create Scripts
+            
+            Difference between on-demand and provisioned resources
+            Scaling policies
+            Containerization for both training and inference 
+    
+     * 3.3 CI/CD and automation
+            
+            Setting up Code Pipeline 
+            GitFlow 
+            Code repository and pipeline wiring
+
+
+Domain 4 - ML Solution Monitoring and Troubleshooting
+
+      * Monitor model inference 
+          
+           Identify model drifts
+           Model evaluation metrics
+           A/B testing
+     
+      * 4.2 Monitor and Optimize Infrastructure
+         
+           Being aware of reducing the operational scale - Reducing carbon footprint - Reduced cost
+           Picking right size of infrastructure
+           Compute budget, Savings plan for sagemaker instances
+
+       * 4.3 Securing AWS resources
+         
+            IAM Role Manager
+            Sagemaker security and compliance features
+            Security best practices for CI/CD
+            
             
 ```
