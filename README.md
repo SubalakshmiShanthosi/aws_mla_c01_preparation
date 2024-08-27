@@ -121,3 +121,37 @@ Domain 4 - ML Solution Monitoring and Troubleshooting
             
             
 ```
+
+AWS Training Live - Episode 2
+
+# Data Preparation for ML
+How is Data Preparation different from Data Pre-processing?
+
+Data Processing / Data Preparation - Data Collection , Data Pre-processing and Feature Engineering.
+
+
+Question: Amazon Kinesis Datastream to ingest,store and pre-process data at the same time? 
+
+
+
+SQS - Poll a message from queue - Kinesis Data stream will hold the data within the stream - 
+
+Before Kinesis was made of Kinesis Data Firehouse , Kinesis Data Analytics
+
+Throw Data Into Kinesis Data Stream ---> Send data to converging Apache Flink Managed Service --> Firehouse Data store the data can be sent to be stored on data store say example S3
+
+Producers - Publishing data to data stream 
+
+Apache Flink Managed Service - Consumers (Custom build or build on top of Apache Flink like an App) - Control the processing logic for data 
+
+Data Firehouse - it's can be used to offload data to destination data store.
+
+More concerned about reading data (S3) Write once read many
+
+Card clash - Data Lake Data Ingest (TODO)
+
+Task 1.2 Data Preparation and Data Processing
+
+Amazon Glue, EMR, what types of data processing is done for ML workloads-? 
+
+Sagemaker Data Wrangler - What type of data transformations and analysis is done for the ML task data. 
